@@ -1,0 +1,28 @@
+/* adminhome.css */
+
+.admin-home-container {
+    display: flex;
+  }
+  
+  .event-side-nav {
+    width: 240px; /* Adjust as needed */
+     /* Example background color */
+    color: #fff; /* Example text color */
+  }
+  
+  .admin-content {
+    flex: 1; /* Takes remaining available space */
+    padding: 10px; /* Add padding as needed */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-profile {
+    order: -1; /* Moves the admin-profile to the top */
+  }
+  
+  .apex-chart {
+    flex: 1; /* Takes remaining available space */
+    padding-top: 10px; /* Add padding as needed */
+  }
+  
