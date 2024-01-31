@@ -1,0 +1,23 @@
+/* profile.css */
+.profile-container {
+  max-width: 500px; /* Adjusted max-width for a wider card */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.profile-info {
+  margin-top: 20px;
+}
+
+.profile-info p {
+  margin: 8px 0;
+}
+
+.profile-info p:first-child {
+  font-size: 1.2em;
+  font-weight: bold;
+}
